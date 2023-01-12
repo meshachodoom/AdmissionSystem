@@ -1,0 +1,88 @@
+﻿@model AdmissionSystem.Models.Guardian
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Please fill in the forms</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal"style=" border-radius: 4px;box-sizing: border-box;border:1px solid #ccc">
+        <h4>Guardian's details</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.GuardianFirstName, "Guardian's First Name", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GuardianFirstName, new { htmlAttributes = new { @class = "form-control" ,@placeholder = "Enter guardian's first name(required)" } })
+                @Html.ValidationMessageFor(model => model.GuardianFirstName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GuardianLastName, "Guardian's Last Name", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GuardianLastName, new { htmlAttributes = new { @class = "form-control", @placeholder = "Enter guardian's last name(required)" } })
+                @Html.ValidationMessageFor(model => model.GuardianLastName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GuardianOtherName, "Guardian's Other Name", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GuardianOtherName, new { htmlAttributes = new { @class = "form-control", @placeholder = "Enter guardian's other name(optional)" } })
+                @Html.ValidationMessageFor(model => model.GuardianOtherName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GuardianOccupation, "Guardian's Occupation", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GuardianOccupation, new { htmlAttributes = new { @class = "form-control", @placeholder = "Enter guardian's occupation(required)" } })
+                @Html.ValidationMessageFor(model => model.GuardianOccupation, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.P_O_Box, "Guardian's P.O. BOX", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.P_O_Box, new { htmlAttributes = new { @class = "form-control", @placeholder = "Enter guardian's P.O. Box(required)" } })
+                @Html.ValidationMessageFor(model => model.P_O_Box, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PhoneNumber, "Guardian's Phone Number", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control", @placeholder = "Enter guardian's phone number(required)" } })
+                @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EmailAddress, "Guardian's Email Address", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "form-control", @placeholder = "Enter guardian's email address(optional)" } })
+                @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save changes and continue" class="btn btn-default" style="background: steelblue;border: 1px solid dodgerblue;border-radius: 4px;"/>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

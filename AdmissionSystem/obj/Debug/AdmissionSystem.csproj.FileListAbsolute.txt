@@ -1,0 +1,124 @@
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\csc.exe
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\System.Collections.Immutable.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\vbc.exe
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\VBCSCompiler.exe
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\roslyn\VBCSCompiler.exe.config
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\AdmissionSystem.dll.config
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\AdmissionSystem.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\AdmissionSystem.pdb
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Antlr3.Runtime.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\EntityFramework.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\EntityFramework.SqlServer.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Google.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Web.Infrastructure.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Newtonsoft.Json.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Owin.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.Helpers.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.Mvc.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.Optimization.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.Razor.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.Deployment.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.Razor.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\WebGrease.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.Helpers.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.Mvc.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.Optimization.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.Razor.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.Deployment.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.Razor.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Antlr3.Runtime.pdb
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Newtonsoft.Json.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\EntityFramework.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\EntityFramework.SqlServer.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Google.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\obj\Debug\AdmissionSystem.dll
+c:\users\meshach odoom\documents\visual studio 2015\Projects\AdmissionSystem\AdmissionSystem\obj\Debug\AdmissionSystem.pdb
+C:\Users\Meshach Odoom\Documents\Visual Studio 2015\Projects\AdmissionSystem\AdmissionSystem\obj\Debug\AdmissionSystem.csprojResolveAssemblyReference.cache
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\obj\Debug\AdmissionSystem.csprojResolveAssemblyReference.cache
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\obj\Debug\AdmissionSystem.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\obj\Debug\AdmissionSystem.pdb
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\AdmissionSystem.dll.config
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\AdmissionSystem.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\AdmissionSystem.pdb
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Antlr3.Runtime.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\EntityFramework.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\EntityFramework.SqlServer.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Newtonsoft.Json.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Owin.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.Helpers.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.Mvc.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.Optimization.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.Razor.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.Deployment.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.Razor.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\WebGrease.dll
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.Helpers.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.Mvc.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.Optimization.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.Razor.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.Deployment.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\System.Web.WebPages.Razor.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Antlr3.Runtime.pdb
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Newtonsoft.Json.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\EntityFramework.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\EntityFramework.SqlServer.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project\MVC\AdmissionSystem\AdmissionSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml

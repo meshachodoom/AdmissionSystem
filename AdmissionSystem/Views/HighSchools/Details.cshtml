@@ -1,0 +1,82 @@
+﻿@model AdmissionSystem.Models.HighSchool
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>HighSchool</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NameOfSHS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameOfSHS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.P_O_Box)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.P_O_Box)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClubAssociation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClubAssociation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PositionHeld)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PositionHeld)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IndexNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IndexNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExamType1.ExamType1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExamType1.ExamType1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Region.RegionId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Region.RegionId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year1.Year1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year1.Year1)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.HighSchoolId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

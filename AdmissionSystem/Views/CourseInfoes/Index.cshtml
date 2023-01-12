@@ -1,0 +1,63 @@
+﻿@model IEnumerable<AdmissionSystem.Models.CourseInfo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FeeStatu.FeeStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hall1.Hall1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Program11.Program11)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Program21.Program21)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Program31.Program31)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Program41.Program41)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FeeStatu.FeeStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hall1.Hall1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Program11.Program11)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Program21.Program21)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Program31.Program31)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Program41.Program41)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CourseId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CourseId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CourseId })
+        </td>
+    </tr>
+}
+
+</table>

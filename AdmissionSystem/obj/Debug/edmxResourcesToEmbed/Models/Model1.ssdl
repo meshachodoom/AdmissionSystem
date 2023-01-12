@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdmissionModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CourseInfo">
+    <Key>
+      <PropertyRef Name="CourseId" />
+    </Key>
+    <Property Name="CourseId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Hall" Type="varchar" MaxLength="50" />
+    <Property Name="FeeStatus" Type="varchar" MaxLength="50" />
+    <Property Name="Program1" Type="varchar" MaxLength="50" />
+    <Property Name="Program2" Type="varchar" MaxLength="50" />
+    <Property Name="Program3" Type="varchar" MaxLength="50" />
+    <Property Name="Program4" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ExamType">
+    <Key>
+      <PropertyRef Name="ExamType" />
+    </Key>
+    <Property Name="ExamType" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FeeStatus">
+    <Key>
+      <PropertyRef Name="FeeStatus" />
+    </Key>
+    <Property Name="FeeStatus" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="Gender" />
+    </Key>
+    <Property Name="Gender" Type="nchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Guardian">
+    <Key>
+      <PropertyRef Name="GuardianId" />
+    </Key>
+    <Property Name="GuardianId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GuardianFirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="GuardianLastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="GuardianOtherName" Type="varchar" MaxLength="50" />
+    <Property Name="GuardianOccupation" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="P.O.Box" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="PhoneNumber" Type="int" Nullable="false" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="70" />
+  </EntityType>
+  <EntityType Name="Hall">
+    <Key>
+      <PropertyRef Name="Hall" />
+    </Key>
+    <Property Name="Hall" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HighSchool">
+    <Key>
+      <PropertyRef Name="HighSchoolId" />
+    </Key>
+    <Property Name="HighSchoolId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameOfSHS" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="P.O.Box" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ClubAssociation" Type="varchar" MaxLength="50" />
+    <Property Name="PositionHeld" Type="varchar" MaxLength="50" />
+    <Property Name="IndexNumber" Type="int" Nullable="false" />
+    <Property Name="ExamType" Type="varchar" MaxLength="50" />
+    <Property Name="RegionId" Type="varchar" MaxLength="50" />
+    <Property Name="Year" Type="int" />
+  </EntityType>
+  <EntityType Name="LogIn">
+    <Key>
+      <PropertyRef Name="SchoolId" />
+    </Key>
+    <Property Name="SchoolId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Serial" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Pin" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Nationality">
+    <Key>
+      <PropertyRef Name="Nationality" />
+    </Key>
+    <Property Name="Nationality" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pin">
+    <Key>
+      <PropertyRef Name="Pin" />
+    </Key>
+    <Property Name="Pin" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Program1">
+    <Key>
+      <PropertyRef Name="Program1" />
+    </Key>
+    <Property Name="Program1" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Program2">
+    <Key>
+      <PropertyRef Name="Program2" />
+    </Key>
+    <Property Name="Program2" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Program3">
+    <Key>
+      <PropertyRef Name="Program3" />
+    </Key>
+    <Property Name="Program3" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Program4">
+    <Key>
+      <PropertyRef Name="Program4" />
+    </Key>
+    <Property Name="Program4" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Regions">
+    <Key>
+      <PropertyRef Name="RegionId" />
+    </Key>
+    <Property Name="RegionId" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Religion">
+    <Key>
+      <PropertyRef Name="Religion" />
+    </Key>
+    <Property Name="Religion" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Serial">
+    <Key>
+      <PropertyRef Name="Serial" />
+    </Key>
+    <Property Name="Serial" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Surname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="OtherName" Type="varchar" MaxLength="50" />
+    <Property Name="Gender" Type="nchar" MaxLength="10" />
+    <Property Name="DateOfBirth" Type="date" Nullable="false" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Image" Type="image" />
+    <Property Name="PhoneNumber" Type="int" Nullable="false" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Hometown" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="P.O.Box" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="HouseAddress" Type="varchar" MaxLength="20" />
+    <Property Name="Nationality" Type="varchar" MaxLength="50" />
+    <Property Name="Religion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Year">
+    <Key>
+      <PropertyRef Name="Year" />
+    </Key>
+    <Property Name="Year" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_CourseInfo_FeeStatus">
+    <End Role="FeeStatus" Type="Self.FeeStatus" Multiplicity="0..1" />
+    <End Role="CourseInfo" Type="Self.CourseInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FeeStatus">
+        <PropertyRef Name="FeeStatus" />
+      </Principal>
+      <Dependent Role="CourseInfo">
+        <PropertyRef Name="FeeStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseInfo_Hall">
+    <End Role="Hall" Type="Self.Hall" Multiplicity="0..1" />
+    <End Role="CourseInfo" Type="Self.CourseInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hall">
+        <PropertyRef Name="Hall" />
+      </Principal>
+      <Dependent Role="CourseInfo">
+        <PropertyRef Name="Hall" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseInfo_Program1">
+    <End Role="Program1" Type="Self.Program1" Multiplicity="0..1" />
+    <End Role="CourseInfo" Type="Self.CourseInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Program1">
+        <PropertyRef Name="Program1" />
+      </Principal>
+      <Dependent Role="CourseInfo">
+        <PropertyRef Name="Program1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseInfo_Program2">
+    <End Role="Program2" Type="Self.Program2" Multiplicity="0..1" />
+    <End Role="CourseInfo" Type="Self.CourseInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Program2">
+        <PropertyRef Name="Program2" />
+      </Principal>
+      <Dependent Role="CourseInfo">
+        <PropertyRef Name="Program2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseInfo_Program3">
+    <End Role="Program3" Type="Self.Program3" Multiplicity="0..1" />
+    <End Role="CourseInfo" Type="Self.CourseInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Program3">
+        <PropertyRef Name="Program3" />
+      </Principal>
+      <Dependent Role="CourseInfo">
+        <PropertyRef Name="Program3" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseInfo_Program4">
+    <End Role="Program4" Type="Self.Program4" Multiplicity="0..1" />
+    <End Role="CourseInfo" Type="Self.CourseInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Program4">
+        <PropertyRef Name="Program4" />
+      </Principal>
+      <Dependent Role="CourseInfo">
+        <PropertyRef Name="Program4" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HighSchool_ExamType">
+    <End Role="ExamType" Type="Self.ExamType" Multiplicity="0..1" />
+    <End Role="HighSchool" Type="Self.HighSchool" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamType">
+        <PropertyRef Name="ExamType" />
+      </Principal>
+      <Dependent Role="HighSchool">
+        <PropertyRef Name="ExamType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HighSchool_Regions">
+    <End Role="Regions" Type="Self.Regions" Multiplicity="0..1" />
+    <End Role="HighSchool" Type="Self.HighSchool" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Regions">
+        <PropertyRef Name="RegionId" />
+      </Principal>
+      <Dependent Role="HighSchool">
+        <PropertyRef Name="RegionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HighSchool_Year">
+    <End Role="Year" Type="Self.Year" Multiplicity="0..1" />
+    <End Role="HighSchool" Type="Self.HighSchool" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Year">
+        <PropertyRef Name="Year" />
+      </Principal>
+      <Dependent Role="HighSchool">
+        <PropertyRef Name="Year" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LogIn_Serial">
+    <End Role="Serial" Type="Self.Serial" Multiplicity="1" />
+    <End Role="LogIn" Type="Self.LogIn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Serial">
+        <PropertyRef Name="Serial" />
+      </Principal>
+      <Dependent Role="LogIn">
+        <PropertyRef Name="Serial" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LogIn_Serial1">
+    <End Role="Serial" Type="Self.Serial" Multiplicity="1" />
+    <End Role="LogIn" Type="Self.LogIn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Serial">
+        <PropertyRef Name="Serial" />
+      </Principal>
+      <Dependent Role="LogIn">
+        <PropertyRef Name="Serial" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Gender">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="Gender" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="Gender" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Nationality">
+    <End Role="Nationality" Type="Self.Nationality" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nationality">
+        <PropertyRef Name="Nationality" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="Nationality" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Religion">
+    <End Role="Religion" Type="Self.Religion" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Religion">
+        <PropertyRef Name="Religion" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="Religion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AdmissionModelStoreContainer">
+    <EntitySet Name="CourseInfo" EntityType="Self.CourseInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExamType" EntityType="Self.ExamType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FeeStatus" EntityType="Self.FeeStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Gender" EntityType="Self.Gender" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Guardian" EntityType="Self.Guardian" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Hall" EntityType="Self.Hall" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HighSchool" EntityType="Self.HighSchool" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LogIn" EntityType="Self.LogIn" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nationality" EntityType="Self.Nationality" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pin" EntityType="Self.Pin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Program1" EntityType="Self.Program1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Program2" EntityType="Self.Program2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Program3" EntityType="Self.Program3" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Program4" EntityType="Self.Program4" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Regions" EntityType="Self.Regions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Religion" EntityType="Self.Religion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Serial" EntityType="Self.Serial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Year" EntityType="Self.Year" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CourseInfo_FeeStatus" Association="Self.FK_CourseInfo_FeeStatus">
+      <End Role="FeeStatus" EntitySet="FeeStatus" />
+      <End Role="CourseInfo" EntitySet="CourseInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseInfo_Hall" Association="Self.FK_CourseInfo_Hall">
+      <End Role="Hall" EntitySet="Hall" />
+      <End Role="CourseInfo" EntitySet="CourseInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseInfo_Program1" Association="Self.FK_CourseInfo_Program1">
+      <End Role="Program1" EntitySet="Program1" />
+      <End Role="CourseInfo" EntitySet="CourseInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseInfo_Program2" Association="Self.FK_CourseInfo_Program2">
+      <End Role="Program2" EntitySet="Program2" />
+      <End Role="CourseInfo" EntitySet="CourseInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseInfo_Program3" Association="Self.FK_CourseInfo_Program3">
+      <End Role="Program3" EntitySet="Program3" />
+      <End Role="CourseInfo" EntitySet="CourseInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseInfo_Program4" Association="Self.FK_CourseInfo_Program4">
+      <End Role="Program4" EntitySet="Program4" />
+      <End Role="CourseInfo" EntitySet="CourseInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HighSchool_ExamType" Association="Self.FK_HighSchool_ExamType">
+      <End Role="ExamType" EntitySet="ExamType" />
+      <End Role="HighSchool" EntitySet="HighSchool" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HighSchool_Regions" Association="Self.FK_HighSchool_Regions">
+      <End Role="Regions" EntitySet="Regions" />
+      <End Role="HighSchool" EntitySet="HighSchool" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HighSchool_Year" Association="Self.FK_HighSchool_Year">
+      <End Role="Year" EntitySet="Year" />
+      <End Role="HighSchool" EntitySet="HighSchool" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LogIn_Serial" Association="Self.FK_LogIn_Serial">
+      <End Role="Serial" EntitySet="Serial" />
+      <End Role="LogIn" EntitySet="LogIn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LogIn_Serial1" Association="Self.FK_LogIn_Serial1">
+      <End Role="Serial" EntitySet="Serial" />
+      <End Role="LogIn" EntitySet="LogIn" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Gender" Association="Self.FK_Student_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Nationality" Association="Self.FK_Student_Nationality">
+      <End Role="Nationality" EntitySet="Nationality" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Religion" Association="Self.FK_Student_Religion">
+      <End Role="Religion" EntitySet="Religion" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

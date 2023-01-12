@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d584104636854626a6cd8435c2c28d8f" Name="Diagram1">
+        <EntityTypeShape EntityType="AdmissionModel.CourseInfo" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.ExamType" Width="1.5" PointX="5.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.FeeStatu" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Gender" Width="1.5" PointX="7.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Guardian" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Hall" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.HighSchool" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.LogIn" Width="1.5" PointX="13" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Nationality" Width="1.5" PointX="7.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Pin" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Program1" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Program2" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Program3" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Program4" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Region" Width="1.5" PointX="5.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Serial" Width="1.5" PointX="10.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Student" Width="1.5" PointX="10" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.sysdiagram" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdmissionModel.Year" Width="1.5" PointX="5.75" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="AdmissionModel.FK_CourseInfo_FeeStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_CourseInfo_Hall" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_CourseInfo_Program1" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_CourseInfo_Program2" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_CourseInfo_Program3" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_CourseInfo_Program4" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_HighSchool_ExamType" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_Student_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_HighSchool_Regions" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_HighSchool_Year" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_LogIn_Serial" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_LogIn_Serial1" ManuallyRouted="false" />
+        <AssociationConnector Association="AdmissionModel.FK_Student_Nationality" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="AdmissionModel.Religion" Width="1.5" PointX="10.375" PointY="11.875" />
+        <AssociationConnector Association="AdmissionModel.FK_Student_Religion" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

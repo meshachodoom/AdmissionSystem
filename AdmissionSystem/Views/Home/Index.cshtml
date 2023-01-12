@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link rel="stylesheet" href="~/Content/Site.css">
+<div class="jumbotron">
+    <img width="1000" height="480" src="~/Content/img/aerialview.jpg" />
+    <h1>UMaT</h1>
+    <p class="lead">Knowledge, Truth and Excellence</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <img width="380" height="250" src="/Content/img/campus.jpg" />
+        <h2>Our campus</h2>
+        <p>
+            Our campus is located in a serene environment surrounded with beautiful nature to give a nerve calmning effect to our student to improve their focus
+        </p>
+        <button type="button" class="btn btn-block">@Html.ActionLink("Our Campus", "About", "Home")</button>
+    </div>
+    <div class="col-md-4">
+        <img width="380" height="250" src="/Content/img/lab.jpg" />
+        <h2>ALUMaT</h2>
+        <p>UMaT alumnis are out there making it big time in the world of engineering if you would want meet some UMaT alumni out there you can click the button below.</p>
+        <button type="button" class="btn btn-block">@Html.ActionLink("Our Alumni", "Alumni", "Home")</button>
+    </div>
+    <div class="col-md-4">
+        <img width="380" height="250" src="/Content/img/MED-Campus.jpg" />
+        <h2>Admissions</h2>
+        <p>We are currently open to accepting new students who are ready to dare the undareable to acheive thier goals.</p>
+        <button type="button" class="btn btn-block">@Html.ActionLink("Admissions", "Create", "LogIns")</button>
+    </div>
+</div>
